@@ -1,7 +1,7 @@
-from src.test02 import Animal
+import src.test02.Animal as  animal
 
 
-class Person(Animal.Animal):
+class Person(animal.Animal):
     a = 1
     s = 'world'
 #  私有变量__XXX
@@ -27,4 +27,5 @@ person = Person("nini", 12, 123456)
 person.say_hello()
 #  使用del删除对象，释放它所占的资源，即调用对象的析构函数
 del person
-print(Animal.Animal.age)
+print(animal.Animal.age)
+print(animal.Dog.roar("blank"))
