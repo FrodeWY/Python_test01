@@ -1,3 +1,4 @@
+
 def print_welcome(str1, str2):
     print(str1, str2)
 
@@ -62,7 +63,7 @@ def sum2(*t):
     return total
 
 
-print("return sum2:",sum2(1, 3, 5))
+print("return sum2:", sum2(1, 3, 5))
 #  不给参数即元组为空，输出0
 sum2()
 #  **开头表示可变长参数为字典
