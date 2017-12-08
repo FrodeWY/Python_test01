@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbff10bf-9ccc-4c0c-bfbd-b3b439b73cac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test03/ffmpegTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test01/test02.py" afterPath="$PROJECT_DIR$/src/test01/test02.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test01/test.py" afterPath="$PROJECT_DIR$/src/test01/test01.py" />
-    </list>
+    <list default="true" id="bbff10bf-9ccc-4c0c-bfbd-b3b439b73cac" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/test03/test01.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -947,7 +942,7 @@
       <updated>1512398821608</updated>
       <workItem from="1512398822940" duration="4429000" />
       <workItem from="1512472982174" duration="11148000" />
-      <workItem from="1512651148998" duration="6287000" />
+      <workItem from="1512651148998" duration="6354000" />
     </task>
     <servers />
   </component>
@@ -984,7 +979,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21864000" />
+    <option name="totallyTimeSpent" value="21931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
@@ -1251,7 +1246,7 @@
     <entry file="file://$PROJECT_DIR$/src/test03/test01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
