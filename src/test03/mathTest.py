@@ -30,5 +30,5 @@ getcontext().prec = 6  # 设置小数点精度
 print(d / d2)
 
 # fraction
-print(Fraction(2, 4))  # 表示分数1/3，fraction可以自动约分
+print(Fraction(2, 4))  # 表示分数1/2，fraction可以自动约分
 print(Fraction(1, 6) * 3)
