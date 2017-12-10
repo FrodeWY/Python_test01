@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbff10bf-9ccc-4c0c-bfbd-b3b439b73cac" name="Default" comment="" />
+    <list default="true" id="bbff10bf-9ccc-4c0c-bfbd-b3b439b73cac" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Python_test01/src/test04/CustomizeClass.py" />
+      <change beforePath="$PROJECT_DIR$/../Python_test01/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Python_test01/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python_test01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Python_test01/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,6 +42,7 @@
     <SUITE FILE_PATH="coverage/Python_test01$test4__1_.coverage" NAME="test4 (1) Coverage Results" MODIFIED="1512821196982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test01" />
     <SUITE FILE_PATH="coverage/Python_test01$return_function.coverage" NAME="return_function Coverage Results" MODIFIED="1512836145059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test04" />
     <SUITE FILE_PATH="coverage/Python_test01$Mixin_test.coverage" NAME="Mixin_test Coverage Results" MODIFIED="1512911991952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_test01/src/test04" />
+    <SUITE FILE_PATH="coverage/Python_test01$CustomizeClass.coverage" NAME="CustomizeClass Coverage Results" MODIFIED="1512918875925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_test01/src/test04" />
     <SUITE FILE_PATH="coverage/Python_test01$test05.coverage" NAME="test05 Coverage Results" MODIFIED="1512477631926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test01" />
     <SUITE FILE_PATH="coverage/Python_test01$lambda_test.coverage" NAME="lambda_test Coverage Results" MODIFIED="1512890629306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test04" />
     <SUITE FILE_PATH="coverage/Python_test01$Slots.coverage" NAME="Slots Coverage Results" MODIFIED="1512909235351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python_test01/src/test04" />
@@ -55,17 +60,7 @@
         <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/Types.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="492">
-              <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassArgs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/ClassArgs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -105,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/Decorator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/Lambda_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,27 +120,27 @@
         <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/Property.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="417">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mixin_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mixin_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/Mixin_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="300">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Partial_function.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/Partial_function.py">
+      <file leaf-file-name="CustomizeClass.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/CustomizeClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="2042">
+              <caret line="102" column="18" lean-forward="false" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -176,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/__init__.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/src/test01/test02.py" />
         <option value="$PROJECT_DIR$/src/test01/test03.py" />
@@ -227,6 +221,7 @@
         <option value="$PROJECT_DIR$/../Python_test01/src/test04/Types.py" />
         <option value="$PROJECT_DIR$/../Python_test01/src/test04/Property.py" />
         <option value="$PROJECT_DIR$/../Python_test01/src/test04/Mixin_test.py" />
+        <option value="$PROJECT_DIR$/../Python_test01/src/test04/CustomizeClass.py" />
       </list>
     </option>
   </component>
@@ -335,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Mixin_test">
+  <component name="RunManager" selected="Python.CustomizeClass">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -390,6 +385,25 @@
       <module name="Python_test01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python_test01/src/test04/ClassArgs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="CustomizeClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python_test01/src/test04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_test01" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python_test01/src/test04/CustomizeClass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -453,25 +467,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Types" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python_test01/src/test04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_test01" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python_test01/src/test04/Types.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -513,19 +508,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Types" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ClassArgs" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Slots" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Property" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Mixin_test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ClassArgs" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Slots" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Property" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Mixin_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.CustomizeClass" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Mixin_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Property" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Slots" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ClassArgs" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Types" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CustomizeClass" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Mixin_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Property" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Slots" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ClassArgs" />
       </list>
     </recent_temporary>
   </component>
@@ -550,12 +545,12 @@
       <workItem from="1512796109087" duration="12852000" />
       <workItem from="1512820394310" duration="15309000" />
       <workItem from="1512882895100" duration="8747000" />
-      <workItem from="1512893437627" duration="11028000" />
+      <workItem from="1512893437627" duration="17719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76807000" />
+    <option name="totallyTimeSpent" value="83498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -566,17 +561,17 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14179105" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14179105" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861805" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861805" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27132195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16577825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -621,7 +616,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -630,20 +625,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Python_test01/src/test01/test05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python_test01/src/test01/test06.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Python_test01/src/test01/test07.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -810,14 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python_test01/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="1086" column="10" lean-forward="true" selection-start-line="1086" selection-start-column="10" selection-end-line="1086" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Python_test01/src/test01/test07.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -918,7 +891,7 @@
     <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/Decorator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -934,7 +907,7 @@
     <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/Lambda_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -958,7 +931,7 @@
     <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/Types.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
-          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -966,15 +939,39 @@
     <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/Property.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python_test01/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python_test01/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="1086" column="10" lean-forward="true" selection-start-line="1086" selection-start-column="10" selection-end-line="1086" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/Mixin_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="300">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python_test01/src/test04/CustomizeClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2042">
+          <caret line="102" column="18" lean-forward="false" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
           <folding />
         </state>
       </provider>
