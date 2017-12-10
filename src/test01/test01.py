@@ -1,0 +1,16 @@
+print("sdf")
+a = chr(65)
+b = ord("A")
+c = hex(14)
+d = oct(14)
+print(a, b, c, d)
+e = int("12")
+f = eval("16-5")
+g = str(14)
+h = float("158.165")
+print(e, f, g, h)
+#  //整除
+print(12 // 5)
+print(12 / 5)
+#  ** 幂运算
+print(2 ** 2)

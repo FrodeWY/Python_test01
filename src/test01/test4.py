@@ -1,4 +1,9 @@
 menuList = ['红烧肉', '炒肉丝', '宫爆鸡丁']
+for a in menuList:
+    print(a)
+print(menuList[0:2])
+print(menuList[-2:-1])
+print(menuList[:2])
 print(menuList)
 print(len(menuList))
 print(menuList[1])
@@ -48,3 +53,10 @@ list4.sort()
 print(list4)
 t2 = tuple(list4)
 print(t2)
+# list tuple 都有截取操作
+lists = list(range(100))
+print(type(lists))
+#  前10个数，每两个取一个：
+print(lists[:10:2])
+#  所有数，每5个取一个：
+print(lists[::5])
