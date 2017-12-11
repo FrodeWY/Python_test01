@@ -25,7 +25,7 @@ s2 = Student()
 print(hasattr(s2, "set_age"))
 print(hasattr(s, 'set_age'))
 # 为了给所有实例都绑定方法，可以给class绑定方法：
-# MethodType(set_age, Student)给Student 创建一个方法 但这里不是在class中创建而是创建了一个链接把外部的set_age 方法用链接知道Student内s
+# MethodType(set_age, Student)给Student 创建一个方法 但这里不是在class中创建而是创建了一个链接把外部的set_age 方法用链接指到Student内
 # Student.set_age = MethodType(set_age, Student)
 
 

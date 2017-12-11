@@ -21,7 +21,6 @@ print(partial_int2('10', base=10))
 print(partial_int2('10'))
 
 
-
 def test():
     args = sys.argv
     if len(args) == 1:
