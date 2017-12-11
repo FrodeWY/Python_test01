@@ -9,8 +9,7 @@ path2 = 'C:/Users/mac/Desktop/wujing_short.mp4_jsons/'
 
 
 class Marker:
-
-    def marker_image(self,json_dir_path, image_dir_path, lable):
+    def marker_image(self, json_dir_path, image_dir_path, lable):
 
         pathDir = os.listdir(json_dir_path)
         suffix = '.png'
@@ -31,7 +30,7 @@ class Marker:
                 mess = json_lable + str(single_json['confidence'])
                 if json_lable == lable:
                     file_name = str(pathDir[i]).split(".")[0]
-                
+
                     if image_dir_path.endswith("/"):
                         image_file_path = image_dir_path + file_name + suffix
                     else:
