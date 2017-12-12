@@ -21,6 +21,9 @@ print(menuList)
 print(menuList.index('红烧肉'))
 menuList.remove('京酱肉丝')
 print(menuList)
+for i in menuList:
+    print(i)
+
 for i in range(len(menuList)):
     print(menuList[i])
 
@@ -47,6 +50,9 @@ for i in range(len(list3)):
 t = (1, 6, 3, 4)
 for i in range(len(t)):
     print(t[i])
+
+for i in t:
+    print(i)
 #  list() 转列表，tuple（）转元组
 list4 = list(t)
 list4.sort()
