@@ -29,8 +29,8 @@ def copy():
         rs2 = r.readlines()
         for val in range(len(rs)):
             w.write(rs[val])
-        for val in range(len(rs2)):
-            w.write('rs2_____:' + rs[val])
+        for val in rs2:
+            w.write('rs2_____:' + val)
     except IOError as e:
         raise e
     finally:
@@ -66,6 +66,6 @@ def copy3():
 if __name__ == '__main__':
     # write01()
     # write02()
-    # copy()
+    copy()
     # copy2()
-    copy3()
+    # copy3()

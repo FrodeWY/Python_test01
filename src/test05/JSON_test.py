@@ -23,6 +23,7 @@ def unjson():
     with open('../resource/json.txt', encoding='utf-8') as r:
         load = json.load(r)
         print('load:', load)
+        print('name:'+load['name'])
 
 
 def unjson2():

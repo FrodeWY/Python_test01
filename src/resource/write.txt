@@ -22,6 +22,30 @@ ZeroDivisionError: division by zero
 warning test
 <class '__main__.FooError'>
 NoneType: None
+division by zero
+Traceback (most recent call last):
+  File "E:/myTest/Python_test01/src/test04/try_catch_test.py", line 63, in main
+    bar('0')
+  File "E:/myTest/Python_test01/src/test04/try_catch_test.py", line 58, in bar
+    return foo(s) * 2
+  File "E:/myTest/Python_test01/src/test04/try_catch_test.py", line 54, in foo
+    return 10 / int(s)
+ZeroDivisionError: division by zero
+warning test
+<class '__main__.FooError'>
+NoneType: None
+division by zero
+Traceback (most recent call last):
+  File "E:/myTest/Python_test01/src/test04/try_catch_test.py", line 63, in main
+    bar('0')
+  File "E:/myTest/Python_test01/src/test04/try_catch_test.py", line 58, in bar
+    return foo(s) * 2
+  File "E:/myTest/Python_test01/src/test04/try_catch_test.py", line 54, in foo
+    return 10 / int(s)
+ZeroDivisionError: division by zero
+warning test
+<class '__main__.FooError'>
+NoneType: None
 rs2_____:division by zero
 rs2_____:Traceback (most recent call last):
 rs2_____:  File "E:/myTest/Python_test01/src/test04/try_catch_test.py", line 63, in main
