@@ -15,7 +15,7 @@ if 'price' in m1:
 else:
     print('不含price')
 for key in m1.keys():
-    print('键:'+key+' 值：', m1[key])
+    print('键:' + key + ' 值：', m1[key])
 for value in m1.values():
     print(value)
 for entry in m2:
@@ -26,3 +26,8 @@ m1.clear()
 print(m1)
 m2 = {'name': {'first': 'Johney', 'last': 'Lee'}, 'age': 13}
 print(m2['name']['first'])
+
+# 创建字典有以下三种方法
+# dict(a=1, b=2, c=2)
+# dict([(a,1), (b,2), (c,3)])
+# dict({a:1, b:2, c:3})

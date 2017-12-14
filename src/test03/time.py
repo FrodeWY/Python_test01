@@ -9,7 +9,11 @@ timestr = '00:00:47'
 timestr2 = '00:01:47'
 timeFormat = datetime.datetime.strptime(timestr, '%H:%M:%S')
 timeFormat2 = datetime.datetime.strptime(timestr2, '%H:%M:%S')
+
 print(timeFormat2 - timeFormat)
 timestr3 = '00:00:47.42'
+timeFormat3 = datetime.datetime.strptime(timestr3, '%H:%M:%S.%f')
+print(timeFormat3)
 print(timestr3[0:-3])
 # dataTimeA=datetime.datetime()
+# print(dataTimeA)
