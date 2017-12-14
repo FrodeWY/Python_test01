@@ -13,7 +13,7 @@ print(now.__name__)
 print(n.__name__)
 
 
-def log(text):
+def log(text='excute'):
     def decorator(fun):
         @functools.wraps(fun)
         def wrapper(*args, **kwargs):
