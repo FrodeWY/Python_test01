@@ -44,7 +44,7 @@ def chain01():
 
 # groupby()把迭代器中相邻的重复元素挑出来放在一起：
 def groupby01():
-    gb = itertools.groupby('AAABBFFCCSS')
+    gb = itertools.groupby('AAABBFFCCSSs')
     for key, group in gb:
         print(key, list(group))
 

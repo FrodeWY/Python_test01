@@ -2,7 +2,8 @@ import hashlib
 
 
 # Python的hashlib提供了常见的摘要算法，如MD5，SHA1等等。
-# 摘要算法之所以能指出数据是否被篡改过，就是因为摘要函数是一个单向函数，计算f(data)很容易，但通过digest反推data却非常困难。而且，对原始数据做一个bit的修改，都会导致计算出的摘要完全不同。
+# 摘要算法之所以能指出数据是否被篡改过，就是因为摘要函数是一个单向函数，计算f(data)很容易，但通过digest反推data却非常困难。
+# 而且，对原始数据做一个bit的修改，都会导致计算出的摘要完全不同。
 def MD501():
     hashlib_md = hashlib.md5()
     hashlib_md.update('how to use md5 in python?'.encode('utf-8'))
