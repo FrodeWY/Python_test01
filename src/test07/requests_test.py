@@ -5,11 +5,17 @@ import requests
 
 def get01():
     param = dict([('q', 'python'), ('cat', '1001')])
-    r = requests.get('https://www.douban.com/', params=param)
+    # 要在请求中传入Cookie，只需准备一个dict传入cookies参数：
+    cookie = {'token': '12345', 'status': 'working'}
+    # 要指定超时，传入以秒为单位的timeout参数：
+    r = requests.get('https://www.douban.com/', params=param, cookies=cookie, timeout=2.5)
     print(r.url, '\n', r.content.decode('utf-8'))
     print('------------------------------')
     print(r.cookies)
     print(r.status_code)
+    print(r.headers['Content-Type'])
+    # requests对Cookie做了特殊处理，使得我们不必解析Cookie就可以轻松获取指定的Cookie：
+    print(r.cookies['ll'])
     print(r.encoding)
 
 
@@ -28,6 +34,7 @@ def add_header():
     r = requests.get('https://www.douban.com/',
                      headers={'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit'})
     print(r.content.decode("utf-8"))
+
 
 # requests默认使用application/x-www-form-urlencoded对POST数据编码。
 def post01():
@@ -51,27 +58,33 @@ def post01():
 
 def login():
     data = {'username': 'admin', 'password': '123'}
-    s=requests.session()
+    s = requests.session()
     r = s.post('http://localhost:8080/login', data=data)
     print(r.content.decode('utf-8'))
     return s
+
 
 # 如果要传递JSON数据，可以直接传入json参数：
 def tran_json():
     params = {'key': 'value'}
     # r = requests.post(url, json=params) # 内部自动序列化为JSON
 
+
+# 上传文件需要更复杂的编码格式，但是requests把它简化成files参数：
+# 在读取文件时，注意务必使用'rb'即二进制模式读取，这样获取的bytes长度才是文件的长度。
 def upload_file():
-    s=login()
-    uploadfile={'image':open('../resource/cat.jpg','rb')}
+    s = login()
+    uploadfile = {'image': open('../resource/cat.jpg', 'rb')}
     post = s.post('http://localhost:8080/uploadImage', files=uploadfile)
     print(post.content.decode('utf-8'))
     print(post.status_code)
 
+
+# 把post()方法替换为put()，delete()等，就可以以PUT或DELETE方式请求资源。
 if __name__ == '__main__':
-    # get01()
+    get01()
     # getJson()
     # add_header()
     # post01()
     # login()
-    upload_file()
+    # upload_file()
