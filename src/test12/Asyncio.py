@@ -1,10 +1,14 @@
 import asyncio as asyncio
 import threading
 
+import time
+
+
 @asyncio.coroutine
 def read_file():
     with open('../resource/1.jpg', 'rb') as f:
-        return f.read()
+        time.sleep(1)
+        return f.readlines()
 
 
 @asyncio.coroutine
@@ -12,7 +16,7 @@ def hello():
     print('Hello world (%s)' % threading.currentThread())
     f = open('../resource/1.jpg', 'rb')
     # print(f.readline())
-    r = yield from read_file
+    r = yield from asyncio.sleep(1)
     f.close()
     print("Hello agein! %s" % threading.currentThread())
     return 'ss'
