@@ -37,8 +37,14 @@ def base64_4():
     print(d)
 
 
+
+
+
 if __name__ == '__main__':
     # base64_1()
     # base64_2()
-    base64_3()
-    base64_4()
+    # base64_3()
+    # base64_4()
+    encode = '找回南方的算法'.encode('utf-8')
+    print(encode)
+    print(encode.decode("utf-8"))

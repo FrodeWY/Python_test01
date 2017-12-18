@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% if person.name %}
+<h1 style="font-style:italic">Home,hello {{person.name}}</h1>
+{% endif %}
+{% for i in person.list %}
+    <h3>{{i}}</h3>
+{% endfor %}
+</body>
+</html>

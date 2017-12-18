@@ -21,6 +21,7 @@ def socket01():
                 break
         data = b''.join(buffer)
         print(data.decode('utf-8'))
+        # 连续两个\r\n时，Header部分结束，后面的数据全部是Body
         header,html=data.split(b'\r\n\r\n',1)
         print(header.decode('utf-8'))
         with open('../resource/sina.html','wb') as f:

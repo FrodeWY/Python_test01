@@ -3,8 +3,8 @@ import socket
 
 def socket_client():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    # Addr = '116.62.146.136'
-    Addr = '127.0.0.1'
+    Addr = '192.168.16.111'
+    # Addr = '127.0.0.1'
     s.connect((Addr, 9999))
     print(s.recv(1024).decode('utf-8'))
     # print((b''.join(buffer)).decode('utf-8'))

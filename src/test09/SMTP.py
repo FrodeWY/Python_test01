@@ -48,7 +48,7 @@ def SMTP02():
     msg = MIMEMultipart()
     from_addr = 'wy841234684@sohu.com'
     password = 'q13073150747'
-    to_addr = 'wy841234684@163.com'
+    to_addr = 'liulianjushi@126.com'
     smtp_server = 'smtp.sohu.com'
     msg['From'] = _format_addr('Python爱好者 <%s>' % from_addr)
     msg['To'] = _format_addr('管理员 <%s>' % to_addr)
@@ -58,6 +58,7 @@ def SMTP02():
         MIMEText('<html><body><h1>Hello</h1><p>send by<a href="http://www.python.org"> python</a>..</p></body></html>',
                  'html', 'utf-8'))
     # 添加附件就是加上一个MIMEBase，从本地读取一个图片:
+    # Body的数据类型由Content-Type头来确定，如果是网页，Body就是文本，如果是图片，Body就是图片的二进制数据
     with open('../resource/cat.jpg', 'rb') as  f:
         # 设置附件的MIME和文件名，这里是jpg类型:
         mime = MIMEBase('image', 'jpg', filename='cat.jpg')
